@@ -115,7 +115,7 @@ public class ClockworksScript : ModuleScript {
             {
                 if (p == Personality.Copycat) //Right=CCW
                 {
-                    if (v == 0)
+                    if (v == 0 || personalities[v-1] == Personality.Seer)
                     {
                         p = Personality.Traumatised;
                         break;
@@ -125,7 +125,7 @@ public class ClockworksScript : ModuleScript {
                 }
                 else //Left=CW
                 {
-                    if (v == 4)
+                    if (v == 4 || personalities[v+1] == Personality.Copycat)
                     {
                         p = Personality.Paranoiac;
                         break;

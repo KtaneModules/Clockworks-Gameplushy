@@ -16,6 +16,6 @@ MonoBehaviour:
   author: Konoko
   description: The rules are the same as regular Clocks, except for the following
     changes. For a refresher of those rules, check out this video.
-  version: 1.0
+  version: 2.0
   outputFolder: build
   previewImage: {fileID: 2800000, guid: bb027858b990e2043ac95a5829870a40, type: 3}
